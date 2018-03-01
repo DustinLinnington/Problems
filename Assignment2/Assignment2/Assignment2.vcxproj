@@ -111,6 +111,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Assignment2.cpp" />
+    <ClCompile Include="Question.cpp" />
+    <ClCompile Include="Question1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Assignment2.h" />
+    <ClInclude Include="BinarySearchTree.h" />
+    <ClInclude Include="Question.h" />
+    <ClInclude Include="Question1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
