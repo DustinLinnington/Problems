@@ -22,6 +22,14 @@ void Question1::printAnswer()
 	heap.insert(3);
 
 	cout << "The value stored in index 0 is now: " << heap.data[0] << endl;
+	cout << "The full heap after inserting is: [";
+	for (int i = 0; i < heap.data.size(); ++i)
+	{
+		if (i != heap.data.size() - 1)
+			cout << heap.data[i] << ", ";
+		else
+			cout << heap.data[i] << "]" << endl;
+	}
 }
 
 /**
@@ -30,7 +38,7 @@ void Question1::printAnswer()
 template <typename Comparable>
 void Question1::BinaryHeap<Comparable>::insert(const Comparable & x)
 {
-	// If there's no room for another element / heap is complete
+	// If there's no room for another element / heap is full
 	if (currentSize == data.size() - 1)
 		data.resize(data.size() * 2);
 
