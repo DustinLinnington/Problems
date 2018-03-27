@@ -114,12 +114,20 @@
     <ClCompile Include="Assignment2.cpp" />
     <ClCompile Include="Question.cpp" />
     <ClCompile Include="Question1.cpp" />
+    <ClCompile Include="Question2.cpp" />
+    <ClCompile Include="Question7.cpp" />
+    <ClCompile Include="Question8.cpp" />
+    <ClCompile Include="Question9.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignment2.h" />
     <ClInclude Include="BinarySearchTree.h" />
     <ClInclude Include="Question.h" />
     <ClInclude Include="Question1.h" />
+    <ClInclude Include="Question2.h" />
+    <ClInclude Include="Question7.h" />
+    <ClInclude Include="Question8.h" />
+    <ClInclude Include="Question9.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

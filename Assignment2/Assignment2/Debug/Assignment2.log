@@ -1,3 +1,5 @@
-﻿  Question1.cpp
+﻿  Assignment2.cpp
+f:\school\bcit\btech\term4\advancedprogramming\problems\assignment2\assignment2\question9.h(30): warning C4018: '<': signed/unsigned mismatch
+f:\school\bcit\btech\term4\advancedprogramming\problems\assignment2\assignment2\question9.h(50): warning C4018: '<': signed/unsigned mismatch
+f:\school\bcit\btech\term4\advancedprogramming\problems\assignment2\assignment2\question9.h(65): warning C4018: '<': signed/unsigned mismatch
   Assignment2.vcxproj -> F:\School\BCIT\BTech\Term4\AdvancedProgramming\Problems\Assignment2\Debug\Assignment2.exe
-  Assignment2.vcxproj -> F:\School\BCIT\BTech\Term4\AdvancedProgramming\Problems\Assignment2\Debug\Assignment2.pdb (Partial PDB)
